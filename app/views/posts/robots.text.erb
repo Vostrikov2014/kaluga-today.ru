@@ -1,0 +1,4 @@
+User-agent: *
+<% @posts.each do |p| %>
+  Disallow: <%= post_url(p) %>
+<% end %>
