@@ -17,7 +17,7 @@
 
 <p>
   <strong>Refvideo:</strong>
-  <%= @post.refvideo %>
+  <%= link_to(@post.refvideo, @post.refvideo, target: :_blank) %>
 </p>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
